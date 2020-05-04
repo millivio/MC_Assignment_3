@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.pk.pucit.booksdata"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:7:5-78
+13-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:8:5-74
+14-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:8:22-72
+15
+16    <application
+16-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:9:5-24:19
+17        android:name="edu.pk.pucit.MyApp"
+17-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:10:9-42
+18        android:allowBackup="true"
+18-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Hamza\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:16:9-40
+27        <activity android:name="edu.pk.pucit.booksdata.MainActivity" >
+27-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:17:9-23:20
+27-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:17:19-47
+28            <intent-filter>
+28-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\Users\Hamza\AndroidStudioProjects\Assignment3_Books-master\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[com.squareup.picasso:picasso:2.71828] C:\Users\Hamza\.gradle\caches\transforms-2\files-2.1\0d635586c8b55d497f4b6221419a353a\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+36            android:name="com.squareup.picasso.PicassoProvider"
+36-->[com.squareup.picasso:picasso:2.71828] C:\Users\Hamza\.gradle\caches\transforms-2\files-2.1\0d635586c8b55d497f4b6221419a353a\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+37            android:authorities="edu.pk.pucit.booksdata.com.squareup.picasso"
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\Hamza\.gradle\caches\transforms-2\files-2.1\0d635586c8b55d497f4b6221419a353a\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+38            android:exported="false" />
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\Hamza\.gradle\caches\transforms-2\files-2.1\0d635586c8b55d497f4b6221419a353a\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+39    </application>
+40
+41</manifest>
